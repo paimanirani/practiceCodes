@@ -1,0 +1,109 @@
+Web 1:
+https://www.club.urbandiversion.com/join-us-1
+https://www.chase.com/
+https://www.zellepay.com/?utm_source=google&utm_medium=cpc&utm_campaign=862090716&utm_term=zelle+pay&gclid=EAIaIQobChMIjYrGvZaA4AIVnx-tBh0kKAbOEAAYASAAEgLiXPD_BwE
+https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9
+https://www.coursera.org/learn/google-kubernetes-engine/home/week/1
+
+
+
+Web 2:
+https://www.tutorialspoint.com/java8/java8_method_references.htm
+
+https://www.w3schools.com/sql/sql_join_full.asp
+https://www.tutorialspoint.com/java8/java8_streams.htm
+https://github.int.llabs.io/llabs/ring.att_subscription_analytics/pull/7/files
+https://www.udemy.com/java-the-complete-java-developer-course/learn/v4/t/lecture/3267760?start=0
+http://becomejavasenior.com/wp-content/uploads/2015/12/240-core-java-interview-questions-and-answers.pdf
+https://www.javacodegeeks.com/2014/04/java-interview-questions-and-answers.html
+https://www.geeksforgeeks.org/generics-in-java/
+https://www.geeksforgeeks.org/collections-in-java-2/
+https://www.tutorialspoint.com/mockito/mockito_junit_integration.htm
+https://github.int.llabs.io/llabs/ring.afp.csi_service/pull/42/files
+https://www.udemy.com/mockito-tutorial-with-junit-examples/learn/v4/content
+https://github.int.llabs.io/llabs/ring.afp.csi_service/tree/master/server/src/main/java/com/locationlabs/afp/csi/services
+https://github.com/callicoder/java-concurrency-examples
+https://static.javadoc.io/org.mockito/mockito-core/2.2.28/org/mockito/junit/MockitoJUnitRunner.html
+http://www.vogella.com/tutorials/Mockito/article.html#mockito_installation_gradle
+https://www.tutorialspoint.com/hibernate/hibernate_examples.htm
+https://docs.sqlalchemy.org/en/latest/orm/tutorial.html     (hibernate)
+https://www.tutorialspoint.com/hibernate/hibernate_examples.htm
+https://www.edureka.co/blog/interview-questions/git-interview-questions/
+https://www.onlineinterviewquestions.com/hibernate-interview-questions-answers/
+
+https://www.youtube.com/watch?v=210tVT2uPvI&list=PL9ooVrP1hQOEfi91PCFQMawtBJrPpir7y&index=2
+https://www.youtube.com/watch?v=zWWgKlMEDUU
+https://www.youtube.com/watch?v=UEEIztXXe6U
+
+
+new web:
+	https://www.udemy.com/spring-hibernate-tutorial/learn/lecture/8058128#overview
+	https://www.udemy.com/microsoft-sql-for-beginners/learn/lecture/2760770#overview
+	https://www.udemy.com/java-web-services/learn/lecture/2465984#overview
+	https://www.baeldung.com/spring-angular-ecommerce
+	https://www.dineshonjava.com/microservices-with-spring-boot/
+	https://guides.micronaut.io/micronaut-microservices-services-discover-eureka/guide/index.html
+	https://medium.com/@RogelioOrts/layered-architecture-spring-boot-af7dc071d2b5
+	http://websystique.com/java/json/jackson-convert-java-object-to-from-json/
+	http://hmkcode.com/jackson-java-json/
+	https://www.mkyong.com/java/jackson-tree-model-example/
+	https://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application
+
+
+
+
+
+------------
+DFS & BFS - https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+            https://techdifferences.com/difference-between-bfs-and-dfs.html
+
+MultiThreading - Memory consistency error:
+
+				https://www.callicoder.com/java-locks-and-atomic-variables-tutorial/
+                 http://norows.com/thread-runnable.html
+                 https://github.int.llabs.io/llabs/ring.att.carrier_block/commit/40c2e2ac2ab9297108e1e3fb947fb4752e3f424e
+
+
+              - Race Condition
+
+                https://en.wikipedia.org/wiki/Serialization
+                https://medium.com/in-the-weeds/fixing-a-race-condition-c8b475fbb994
+                https://stackoverflow.com/questions/6477574/do-database-transactions-prevent-race-conditions
+                http://tutorials.jenkov.com/java-concurrency/volatile.html
+                https://stackoverflow.com/questions/16729364/atomic-operations-and-multithreading
+
+
+Design pattern - https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
+				 https://dzone.com/articles/design-patterns-for-microservices
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+SQL:
+	https://www.w3schools.com/sql/sql_select.asp
+	https://www.java67.com/2015/01/second-highest-salary-in-mysql-and-sql-server.html
+	
+
+Hibernate:
+	https://www.udemy.com/spring-hibernate-tutorial/learn/lecture/5116972#overview
+
+
+Spring:
+	https://www.youtube.com/watch?v=yNY8HLk1hNM&list=PL9ooVrP1hQOEfi91PCFQMawtBJrPpir7y&index=4
+
+
+
+
+Java:
+	Core:
+		https://www.udemy.com/java-interview-questions-and-answers/learn/lecture/5730286#overview
+		https://www.youtube.com/watch?v=oYXivKMSEqM&list=PL9ooVrP1hQOHb4bxoHauWVwNg4FweDItZ&index=14
+
+	Coding Exercises:
+		https://www.lintcode.com/problem/
+		https://javarevisited.blogspot.com/2017/07/top-50-java-programs-from-coding-Interviews.html
+		https://javaconceptoftheday.com/java-interview-programs-with-solutions/
+		https://www.softwaretestinghelp.com/java-coding-interview-programs/
+		https://www.careercup.com/page?pid=amazon-interview-questions&job=sde-2-interview-questions&sort=votes

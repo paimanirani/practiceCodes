@@ -1,0 +1,25 @@
+sudo service tomcat restart
+
+
+tail -f -n 20 *
+
+tail -F finder-att-family.log
+
+
+sudo dpkg --list | grep "fam"
+
+dpkg --list | grep "wmfam"
+sudo dpkg --remove wmfamatt
+
+curl --request DELETE https://afm-vagrant-all1.wavemarket.com/finder-att-family/migration/account/WM-DEBUG-1000 --verbose
+
+
+ansible-playbook -i inventory/vagrant.inv afm.yml --extra-vars serial_value='100%' -e "artifactory_repo_java_project=repository repo_address=file://$HOME/.m2" --tags afm-web --vault-password-file=secret_password
+
+
+To check differene-> (--check --diff)
+
+
+
+
+

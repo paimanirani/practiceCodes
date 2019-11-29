@@ -1,0 +1,23 @@
+show tables;
+desc <table_name>;
+show create table <table_name>;
+
+
+
+select * from (select created, action, mdn, soc, source from billing_history.BillingHistory where ban = "337131294191"  and mdn = "+17142695066" and action not in ("MODIFY") order by created DESC limit 25) t1 order by t1.created ASC;
+
+
+select * from group_info.member m join group_info.user u on m.user_id=u.id where mdn rlike '7142695066';
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+(http://0.0.0.0:5555/v0/ui/#)
+
+$curl -X POST --header 'Content-Type: application/json' -d '{ "accountData": "string" }' 'http://0.0.0.0:5555/v0/account/1234'
+
+Start Redis:
+$redis-server /usr/local/etc/redis.conf
+
+
+tox
+tox -e lint
+tox -e test
+tox -e develop
+tox -e develop -r (reload tox)

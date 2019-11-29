@@ -1,0 +1,57 @@
+
+
+./build_docker_image.sh
+
+docker images
+
+docker image prune
+
+docker images | grep migration
+
+docker run -p 80:80 -it -e REDIS_HOST='localhost' -e METRICS_ENABLED='False' -e KUBERNETES_NAMESPACE='test' locationlabs/mock_migration_service
+
+
+-------------------------------------------	
+
+docker login registry.tools.llabs.io
+Username: lldeploy
+Password: madam0
+
+docker logout registry.tools.llabs.io
+
+_______________________________________________
+
+ring.local:-
+
+
+
+In ring.local/services, bring up the aircraft container:
+$ docker-compose -f services/aircraft.yml up -d
+
+Bring up the mysql container found in ring.local/docker-compose.yml: 
+$ docker-compose -f docker-compose.yml up -d mysql redis localstack setup
+
+
+If both containers are running, you should be able to see them with:
+$ docker ps -a
+
+
+_________________________________________________________________
+
+docker ps
+
+docker stop <hash-code>
+
+docker rm $(docker ps -aq)     // remove docker images
+
+docker ps -a
+
+docker ps -a -q | xargs  -n1 -P8 docker rm -f -v   //kill all the running containers
+
+docker images|grep csi
+
+docker run --name --rm csi -p 80:80 locationlabs/afp_csi_service  
+
+docker exec -it csi bash
+
+tuple( context.clients.gateway.auth.requestCredentials(request=RequestCredentialsRequest(lang="ENG", msisdn=mdn, type='SMS_PIN')).result()).__dict__

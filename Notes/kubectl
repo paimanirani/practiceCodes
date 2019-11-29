@@ -1,0 +1,43 @@
+kubectl config get-contexts
+
+kubectl config use-context att.kube.dev.llabs.io
+
+kubectl -n afp-test get pods
+
+(each name-space has a seperate container,
+Example->.   -n afp-test )
+
+(get logs)
+kubectl -n afp-test logs -f --tail 100 afp-carrierblock-v016-zxwdh
+
+
+(describe)
+kubectl -n afp-lab describe pod afp-lastknown-calculator-7fc8b57b74
+
+
+
+kubectl get pods --namespace="afp-test" | grep mock-migration
+kubectl -n afp-test get pods --watch |grep provision               (watch running and termination of pods)
+kubectl get pods --namespace="afp-test" afp-mockmlp-v016-5z4kn -o yaml
+kubectl get pods --namespace="afp-test" afp-mockmlp-v016-5z4kn -o yaml|pbcopy (To copy and store it in clipboard)	 
+
+
+kubectl get rs --namespace="afp-test" afp-mockmlp-v016-5z4kn -o yaml|pbcopy(replica set)
+
+For Readiness and Liveness Probe
+kubectl exec -it afp-schedulecheck-service-v020-hbh4x -n afp-test sh (pod)
+# netstat -tulpn
+# apt-get install lsof
+# lsof -i -P -n
+# lsof -i :8080
+# apk update
+# apk add curl  (if apt-get doesn't work use "apk add")
+# 		
+
+mblix - instead of curl, use wget
+
+
+
+
+
+

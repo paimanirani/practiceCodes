@@ -1,0 +1,4 @@
+docker run -it -e SPINNAKER_SESSION="f2069295-92b1-4d64-aadb-d37b36ed0c3a" -v $PWD:$PWD -w $PWD --rm registry.tools.llabs.io/locationlabs/spinnaker-chute chute.sh mock-migration.yml 
+
+
+docker run -it -e SPINNAKER_SESSION="f2069295-92b1-4d64-aadb-d37b36ed0c3a" -v $PWD:$PWD -w $PWD --rm registry.tools.llabs.io/locationlabs/spinnaker-chute chute.sh --delete mock-migration.yml    (To delete)
